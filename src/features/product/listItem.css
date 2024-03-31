@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+  }
+  
+  .item {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  /* סגנון לשם המוצר */
+  .product-name {
+    position: absolute;
+    top: 85%; /* מיקום באמצע התמונה לפי האורך */
+    left: 50%; /* מיקום באמצע התמונה לפי הרוחב */
+    transform: translate(-50%, -50%); /* הזזת הטקסט למרכז התמונה */
+    color: rgba(0, 0, 0, 0.8); /* צבע הטקסט: אפור בהיר */
+    font-weight: bold; /* טקסט מודגש */
+    font-size: 16px; /* גודל הטקסט */
+    opacity: 0; /* כתיבת הטקסט מוסתרת בהתחלה */
+    transition: opacity 0.3s ease; /* אנימציה בעת הצגת הטקסט */
+  }
+  
+  /* הצגת שם המוצר רק בעת עבר העכבר מעל התמונה */
+  .image-container:hover .product-name {
+    opacity: 1;
+  }
+  .add {
+    background-color: #4CAF50; /* ירוק */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .add:hover {
+    background-color: #45a049; /* ירוק כהה */
+  }
+  
+  .add svg {
+    margin-right: 5px; /* מרווח מימין לצד הטקסט */
+  }
+  
+  
+  

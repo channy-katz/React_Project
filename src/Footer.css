@@ -1,0 +1,18 @@
+/* Footer.css */
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .contact-info div {
+    margin: 5px;
+  }
+  

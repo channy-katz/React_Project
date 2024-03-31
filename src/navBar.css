@@ -1,0 +1,31 @@
+.navbar {
+    background-color: black;
+
+}
+.hi{
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.logo {
+    /* display: flex;
+    justify-content: center; */
+    margin-right: 30%;
+
+}
+
+.logoImage {
+    max-width: 200px; /* Adjust size as needed */
+    margin-left: 200px;
+}
+
+/* Add more styling as per your requirements */

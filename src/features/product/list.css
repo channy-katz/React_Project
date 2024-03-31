@@ -1,0 +1,10 @@
+.allProduct {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .allProduct > div {
+    margin-left: 25px;
+    margin-bottom:20px ;
+    margin-right: 30px; /* כאן ניתן לשנות את הערך כפי שתרצה ליצירת מרווחים בין הפריטים */
+  }

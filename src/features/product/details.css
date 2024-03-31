@@ -1,0 +1,81 @@
+.product-details{
+    margin-left: 50%;
+margin-bottom: 70%;
+}
+.imgProduct{
+    width: 500px;
+    height: 500px;
+    margin-right: 63%;
+    margin-top: 3%;
+}
+/* .img{
+    margin-left: 50px;
+} */
+.img {
+    position: fixed;
+    top: 55%;
+    left: 50px; /* כאן נכניס את המרחק הרצוי משמאל */
+    transform: translateY(-50%);
+}
+
+.arrow-btn-left {
+    position: fixed;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 36px; /* גודל החץ */
+}
+
+.arrow-btn-right {
+    position: fixed;
+    top: 60%;
+    left: 550px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 36px; /* גודל החץ */
+}
+
+.price1{
+  
+margin-left: 90%;
+margin-top: 12%;
+color: rgb(232, 198, 223);
+}
+.bag{
+    margin-left: 50%;
+}
+.name{
+    margin-left: 50%;
+    margin-bottom: 10%;
+    
+}
+.back{
+    margin-bottom: 100%;
+    margin-left: 50%;
+}
+.bag-button {
+    background-color: lightgrey;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 50%;
+
+}
+
+.bag-button:hover {
+    background-color: darkgrey;
+}
+.des{
+    margin-left: 50%;
+    margin-bottom: 10%;
+}
